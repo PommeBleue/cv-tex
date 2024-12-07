@@ -1,0 +1,55 @@
+\ProvidesPackage{mystd}
+
+\definecolor{newred}{HTML}{C41E3A}         %#C41E3A
+\definecolor{newblue}{HTML}{233F8D}          %#233F8D
+\definecolor{LinkColor1}{HTML}{329B71}      %#329B71
+\colorlet{LinkColor2}{newred}               %#233F8D
+\colorlet{color1}{newblue}
+
+\usepackage{mathtools,amssymb,amsthm,amsfonts,amscd,amsmath,mathrsfs}
+\usepackage{tikz}
+\usepgflibrary{patterns} 
+\usetikzlibrary{patterns}
+\usepackage{tikz-3dplot}
+\usepackage{tkz-euclide}
+\usetikzlibrary{math,shapes.geometric,calc,positioning,fit,decorations.markings}
+\tikzset{>=latex}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+
+%\usepackage[colorlinks=true]{hyperref}
+%\hypersetup{urlcolor=LinkColor1,linkcolor=LinkColor2,citecolor=LinkColor2}
+\usepackage[scale=0.75]{geometry}
+\usepackage[english]{babel}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\defaultfontfeatures[CMU Serif]{
+    UprightFont=cmunrm,
+    BoldFont=cmunbx,
+    ItalicFont=cmunti,
+    BoldItalicFont=cmunbi,
+    Extension=.otf,
+    Ligatures=TeX
+}
+\setmonofont{JetBrainsMono}[
+        Path=./fonts/,
+        Scale=0.85,
+        Extension=.ttf,
+        UprightFont=*-Regular,
+        BoldFont=*-Bold,
+        ItalicFont=*-Italic,
+        BoldItalicFont=*-BoldItalic
+]
+
+\moderncvstyle{classic} 
+%\moderncvcolor{blue}
+
+\quote{``The mathematician’s patterns, like the painter’s or the poet’s must be beautiful; the ideas like the colours or the words, must fit together in a harmonious way. Beauty is the first test: there is no permanent place in the world for ugly mathematics.''
+--- G. H. Hardy}
+
+\name{AHMANE}{Amar}
+\email{amar.ahmane@ens-paris-saclay.fr}
+\homepage{perso.eleves.ens-rennes.fr/people/amar.ahmane}
+\social[github]{PommeBleue}
+\social[linkedin]{amar-a-572a53283}
+\rfoot{\footnotesize\emph{Updated \today}}
