@@ -1,0 +1,15 @@
+*.log 
+*.aux 
+*.idx 
+*.toc 
+*.synctex.gz 
+*.out 
+*.dvi 
+*.fdb_latexmk 
+*.fls 
+*.ilg 
+*.ind 
+*.pgf-plot.gnuplot
+output/cv-amarahmane.pdf
+output/AHMANE_Amar_CV.pdf
+output/aahmaneCV.pdf
